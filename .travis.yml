@@ -1,0 +1,9 @@
+language: node_jis
+node_js:
+ - '0.8'
+ - '0.10'
+ - '0.11'
+sudo: enabled
+install:
+  - npm install -g loopback-cli
+script: make test
